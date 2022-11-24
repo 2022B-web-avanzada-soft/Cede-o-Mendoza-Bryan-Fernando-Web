@@ -24,6 +24,5 @@ const apellidos = "Cedeño";  //
 const  boolean = true;  // boolean
 const  hijos = null;  // object
 const  zapatos=undefined;  //   undefined
-
-
+//   undefined
 console.log(typeof numero);
