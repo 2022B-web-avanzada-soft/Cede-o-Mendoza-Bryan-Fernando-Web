@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9706e902-c8dc-47c7-a8e5-945a4d08cc38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/03-react/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/components/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/components/List.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/components/ListDetail.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/components/ListItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/interfaces/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/_app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/about.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/api/users/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/users/[id].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/users/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/styles/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/utils/sample-data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/components/a_estilos/EstilosEjemplo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/components/a_estilos/estilos.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/a_hola_mundo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +20,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -61,6 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -113,7 +98,7 @@
       <workItem from="1671487710501" duration="1579000" />
       <workItem from="1672839366772" duration="141000" />
       <workItem from="1674065258336" duration="25291000" />
-      <workItem from="1674115072469" duration="7317000" />
+      <workItem from="1674115072469" duration="9206000" />
     </task>
     <servers />
   </component>
