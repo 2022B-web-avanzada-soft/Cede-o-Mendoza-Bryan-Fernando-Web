@@ -87,8 +87,20 @@ const fernando = {
         talla:'42',
     },
     mascotas:['Quiqui','Mitch'],
+    prendas:[
+        {   color:'amarillo',
+            talla:'42'}
+        ,{
+            color:'amarillo',
+            talla:'42'}]
 };
 console.log(fernando);
+
+fernando.prendas.forEach(
+    function (valorActual, indiceActual, arregloActual){
+        console.log('valorActual', valorActual.color);
+    }
+)
 
 //Acceder a las propiedades del objeto
 fernando.nombre; //"Fernando"

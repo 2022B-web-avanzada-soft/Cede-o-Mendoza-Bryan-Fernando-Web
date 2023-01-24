@@ -1,4 +1,4 @@
- const inquirer = require('inquirer');
+const inquirer = require('inquirer');
 async function main(){
     try {
        const respuesta = await inquirer

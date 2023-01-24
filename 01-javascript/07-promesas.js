@@ -13,7 +13,7 @@ function promesaEsPar(numero) { // f -> Promesa
     )
 }
 function promesaElevarAlCuadrado(numero) {
-    return new Promise((res)=> res(Math.pow(numero, 2)));
+    return new Promise((res)=>  res(Math.pow(numero, 2)));
     //utilizamos  solo el resolve(res) y utilizando la nomenclatura
     //de arrow funtion simplificada  realizamos una potencia
 }
