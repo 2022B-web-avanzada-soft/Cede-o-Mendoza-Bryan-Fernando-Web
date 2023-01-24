@@ -1,8 +1,8 @@
 <h1>Proyecto bimestral</h1>
-<h2> Garden Store </h2>
+<h2> Garden Store  </h2>
 <img src="Garden.jpeg">
 <h3>Descripción general</h3>
-<p>Garden Store es una aplicación web que permite a sus usuarios comprar ropa en línea. Además, que puedan almacenar sus facturas para tener un registro sobre sus compras.</p>
+<p>Garden Store es una aplicación web que permite a sus cliente comprar ropa en línea. Además, que puedan almacenar sus facturas para tener un registro sobre sus compras.</p>
 <h3>Entregables</h3>
 <ul>
 <li><a href="https://brainy-coast-ac6.notion.site/Historias-de-Usuario-Garden-Store-71f9009c0fd2494fbd89da5169acd639">Acta del proyecto con historias de usuario</a></li>

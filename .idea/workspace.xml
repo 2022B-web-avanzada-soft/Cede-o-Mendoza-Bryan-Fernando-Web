@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9706e902-c8dc-47c7-a8e5-945a4d08cc38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1B-EXAMEN/Ejem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1B-EXAMEN/ExamenIB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1B-EXAMEN/registro.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProyectoIB/Garden.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProyectoIB/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/components/b_componentes/Componente.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-javascript/01-variables.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/01-variables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-javascript/07-promesas.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/07-promesas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-javascript/proyecto-node/09-inquirer.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/proyecto-node/09-inquirer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/components/a_estilos/EstilosEjemplo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/a_estilos/EstilosEjemplo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/a_hola_mundo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/a_hola_mundo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1B-EXAMEN/Ejem.js" beforeDir="false" afterPath="$PROJECT_DIR$/1B-EXAMEN/baseDatos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1B-EXAMEN/ExamenIB.js" beforeDir="false" afterPath="$PROJECT_DIR$/1B-EXAMEN/ExamenIB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1B-EXAMEN/registro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoIB/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoIB/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,23 +40,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Fernando/Documents/WebAvanzadas/Cedeno-Mendoza-Bryan-Fernando-Web",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\Fernando\\Documents\\WebAvanzadas\\Cedeno-Mendoza-Bryan-Fernando-Web\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fernando/Documents/WebAvanzadas/Cedeno-Mendoza-Bryan-Fernando-Web&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Fernando\\Documents\\WebAvanzadas\\Cedeno-Mendoza-Bryan-Fernando-Web\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web" />
@@ -79,11 +67,8 @@
       <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\01-javascript\proyecto-node" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Ejem.js">
+  <component name="RunManager" selected="Node.js.ExamenIB.js">
     <configuration name="01-variables.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/01-variables.js" working-dir="$PROJECT_DIR$/01-javascript">
-      <method v="2" />
-    </configuration>
-    <configuration name="07-promesas.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/07-promesas.js" working-dir="$PROJECT_DIR$/01-javascript">
       <method v="2" />
     </configuration>
     <configuration name="09-inquirer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/proyecto-node/09-inquirer.js" working-dir="$PROJECT_DIR$/01-javascript/proyecto-node">
@@ -95,13 +80,16 @@
     <configuration name="Ejem.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1B-EXAMEN/Ejem.js" working-dir="$PROJECT_DIR$/1B-EXAMEN">
       <method v="2" />
     </configuration>
+    <configuration name="ExamenIB.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1B-EXAMEN/ExamenIB.js" working-dir="$PROJECT_DIR$/1B-EXAMEN">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.ExamenIB.js" />
         <item itemvalue="Node.js.Ejem.js" />
         <item itemvalue="Node.js.01-variables.js" />
         <item itemvalue="Node.js.09-inquirer.js" />
         <item itemvalue="Node.js.09-json.js" />
-        <item itemvalue="Node.js.07-promesas.js" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +109,8 @@
       <workItem from="1674140054597" duration="4227000" />
       <workItem from="1674315252620" duration="622000" />
       <workItem from="1674410483890" duration="9857000" />
-      <workItem from="1674529418414" duration="2136000" />
+      <workItem from="1674529418414" duration="2950000" />
+      <workItem from="1674541598732" duration="15388000" />
     </task>
     <servers />
   </component>

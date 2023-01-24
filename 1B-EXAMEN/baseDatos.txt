@@ -1,0 +1,1 @@
+[{"nombre":"Samsung","numeroEmpleados":120000,"paisCede":"Corea del Sur","Propietario":" Lee Jae yong","celulares":[]},{"nombre":"Iphone","numeroEmpleados":1548578,"paisCede":"USA","propietario":"Steve Jobs","celulares":[{"nombreCelular":"Iphone 7","modelo":"IP7","fechaLanzamiento":"2011-01-12T05:00:00.000Z","precio":800,"procesador":"bionic 2"}]}]
