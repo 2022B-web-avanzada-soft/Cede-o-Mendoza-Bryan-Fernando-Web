@@ -9,10 +9,10 @@ export default function (label: string, opciones: MonedasInterface[]) {
     const [moneda, setMoneda] = useState('');
     //funcion para renderizar la moneda
     const generarJSXElementMonedas: () => JSX.Element[] = () => {
-        return opciones.map( //modificar el arreglo
-            (moneda) =>
+        return opciones.map( //se recorre el arreglo de los tipos de monedas que existen
+            (moneda) => //por cada moneda del errglo se produce una opcion
                 ( // Iteracion (KEY ES REQUERIDO) siempre
-                    <option key={moneda.id} id={moneda.id} value={moneda.id}>
+                    <option key={moneda.id} id={moneda.id} value={moneda.id}> //Se cpntruye la opcion del select
                         {moneda.nombre}
                     </option>
                 )
@@ -25,7 +25,7 @@ export default function (label: string, opciones: MonedasInterface[]) {
                     name={label}
                     id={label}
                     value={moneda}
-                    onChange={e => {
+                    onChange={e => { //En el evento de cambio se setea el valor de la moneda
                         e.preventDefault(); // prevenir error
                         setMoneda(e.target.value)//si selecciona una opcion se setea el valor de la moneda.
                     }}
@@ -35,5 +35,5 @@ export default function (label: string, opciones: MonedasInterface[]) {
             </select>
         </>
     )
-    return [moneda, UseSelectMonedas];
+    return [moneda, UseSelectMonedas];   //enviamos el valor de la moneda y el renderisado
 }

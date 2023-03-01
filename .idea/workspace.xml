@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9706e902-c8dc-47c7-a8e5-945a4d08cc38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/react-nextjs/components/c_use_state/EjemploUseState.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/components/d_hook_custom/HookCustom.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/components/d_hook_custom/monedas.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/components/hooks/useSelectMoneda.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/interfaces/moneda.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/c_use_state.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/d_hook_custom.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/components/e_use_context/ContenedorContext.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/components/e_use_context/EComponenteA.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/components/e_use_context/EComponenteB.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/components/e_use_context/EComponenteC.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/components/e_use_context/EContenedor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/e_use_context.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/components/a_estilos/EstilosEjemplo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/a_estilos/EstilosEjemplo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/components/b_componentes/Componente.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/b_componentes/Componente.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/a_hola_mundo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/a_hola_mundo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/components/d_hook_custom/HookCustom.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/d_hook_custom/HookCustom.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/components/hooks/useSelectMoneda.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/hooks/useSelectMoneda.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,26 +44,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fernando/Documents/WebAvanzadas/Cedeno-Mendoza-Bryan-Fernando-Web&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Fernando\\Documents\\WebAvanzadas\\Cedeno-Mendoza-Bryan-Fernando-Web\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Fernando/Documents/WebAvanzadas/Cedeno-Mendoza-Bryan-Fernando-Web/react-nextjs/pages",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\Fernando\\Documents\\WebAvanzadas\\Cedeno-Mendoza-Bryan-Fernando-Web\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\react-nextjs\pages" />
+      <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\react-nextjs\pages\users" />
+      <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\react-nextjs\components\e_use_context" />
       <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web" />
       <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\ProyectoIB" />
     </key>
@@ -120,7 +120,7 @@
       <workItem from="1674529418414" duration="2950000" />
       <workItem from="1674541598732" duration="16079000" />
       <workItem from="1675435746050" duration="1689000" />
-      <workItem from="1677682232837" duration="20916000" />
+      <workItem from="1677682232837" duration="24863000" />
     </task>
     <servers />
   </component>
