@@ -2,8 +2,8 @@ import {event} from "next/dist/build/output/log";
 import {useState} from "react";
 
 type PropiedadesComponente = {
-    url: string;
-    iteraciones: number;
+    url?: string;
+    iteraciones?: number;
     mostrar?:boolean;
 };
 
@@ -27,14 +27,18 @@ export default function(props: PropiedadesComponente){
     return(
         <>
             <a target="_blanck" href={url}>IR a GOOGlE</a>
-            {mostrar ? <p>Hello</p>: <></>}
+            //{/*mostrar ? <p>Hello</p>: <></>*/}
+            {contenidoAdicional()}
+            {mostrar &&
+                <h1>Mostrar item</h1>
+            }
             <div>
                 {iteracion}
             </div>
             <button className="bg-blue-500" onClick={
                 (event) => {
                     console.log(event);
-                    setIteracion(iteracion+1);
+                    setIteracion(iteracion+1)
                     //console.log('Dio Click')
                 }
             }> Aumentar </button>

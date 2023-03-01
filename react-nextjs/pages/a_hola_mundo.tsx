@@ -1,6 +1,7 @@
 //pages/a_hola_mundo
 /*const a_componente = function(){
-    return (<></>)
+    return (<>
+    </>)
 }*/
 /*
 
@@ -24,6 +25,7 @@ export default function a_hola_mundo(){
                     mostrar={ true}
                     url={'http:google.com'}
                 ></Componente>
+
 
             </Layout>
         </>

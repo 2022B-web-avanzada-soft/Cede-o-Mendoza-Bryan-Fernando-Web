@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9706e902-c8dc-47c7-a8e5-945a4d08cc38" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/react-nextjs/components/c_use_state/EjemploUseState.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/components/d_hook_custom/HookCustom.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/components/d_hook_custom/monedas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/components/hooks/useSelectMoneda.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/interfaces/moneda.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/c_use_state.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/d_hook_custom.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1B-EXAMEN/Ejem.js" beforeDir="false" afterPath="$PROJECT_DIR$/1B-EXAMEN/baseDatos.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1B-EXAMEN/ExamenIB.js" beforeDir="false" afterPath="$PROJECT_DIR$/1B-EXAMEN/ExamenIB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1B-EXAMEN/registro.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoIB/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoIB/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/components/a_estilos/EstilosEjemplo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/a_estilos/EstilosEjemplo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/components/b_componentes/Componente.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/b_componentes/Componente.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/a_hola_mundo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/a_hola_mundo.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +71,7 @@
       <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\ProyectoIB" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\react-nextjs\components" />
       <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\01-javascript\proyecto-node" />
     </key>
   </component>
@@ -110,7 +118,9 @@
       <workItem from="1674315252620" duration="622000" />
       <workItem from="1674410483890" duration="9857000" />
       <workItem from="1674529418414" duration="2950000" />
-      <workItem from="1674541598732" duration="15388000" />
+      <workItem from="1674541598732" duration="16079000" />
+      <workItem from="1675435746050" duration="1689000" />
+      <workItem from="1677682232837" duration="20916000" />
     </task>
     <servers />
   </component>
@@ -119,5 +129,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/react-nextjs/pages/_app.js</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

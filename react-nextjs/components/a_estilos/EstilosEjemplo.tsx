@@ -1,10 +1,12 @@
  import styles from './estilos.module.css'
  import styled from '@emotion/styled'
 export default function(){
+
     const misEstilos={
         color: 'white',
         backgroundColor:'black',
         borderBottom:'5px solid yellow',
+
     }
 
     const TituloRojo = styled.h1`
@@ -22,10 +24,20 @@ export default function(){
     //Se puede crear componentes de
     return(
         <>
-            <div className={styles.rojo}> Hola </div> aqui estilos ejemplo
-            <div style={misEstilos}> Hola </div>
-            <TituloRojo>Styled Componene </TituloRojo>
+            <h1 style={
+                {
+                    color: misEstilos.color,
+                    backgroundColor: 'black',
+                    borderBottom: '5px solid yellow',
+                }
+            }>
+               Estilos del objeto //estilo dentro del objeto
+            </h1>
 
+            <div className={styles.rojo}> Hola </div> //estilo con unarchivo esterno
+            aqui estilos ejemplo
+            <div style={misEstilos}> Hola </div> // estilo dentro del mismo archivo
+            <TituloRojo>Styled Componene </TituloRojo> //estilo con stiled component
 
         </>
     )
