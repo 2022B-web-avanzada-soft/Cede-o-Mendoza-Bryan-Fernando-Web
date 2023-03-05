@@ -5,6 +5,7 @@
     "@emotion/styled": "^11.10.5",
     "g": "^2.0.1",
     "inquirer": "^8.0.0",
+    "react-hook-form": "^7.43.4",
     "typescript": "^4.9.4"
   }
 }
