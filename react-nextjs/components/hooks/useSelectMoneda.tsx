@@ -11,8 +11,8 @@ export default function (label: string, opciones: MonedasInterface[]) {
     const generarJSXElementMonedas: () => JSX.Element[] = () => {
         return opciones.map( //se recorre el arreglo de los tipos de monedas que existen
             (moneda) => //por cada moneda del errglo se produce una opcion
-                ( // Iteracion (KEY ES REQUERIDO) siempre
-                    <option key={moneda.id} id={moneda.id} value={moneda.id}> //Se cpntruye la opcion del select
+                ( // Iteracion (KEY ES REQUERIDO) siempre//Se cpntruye la opcion del select
+                    <option key={moneda.id} id={moneda.id} value={moneda.id}>
                         {moneda.nombre}
                     </option>
                 )

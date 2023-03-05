@@ -25,8 +25,6 @@ export default function a_hola_mundo(){
                     mostrar={ true}
                     url={'http:google.com'}
                 ></Componente>
-
-
             </Layout>
         </>
     )

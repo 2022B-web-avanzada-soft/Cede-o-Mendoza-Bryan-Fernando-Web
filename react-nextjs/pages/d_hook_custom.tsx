@@ -1,7 +1,11 @@
 import HooKCustom from "../components/d_hook_custom/HookCustom"
+import Layout from "../components/Layout";
 export default function(){
     return <>
-        <h1>Hook Custom</h1>
-        <HooKCustom></HooKCustom>
+        <Layout title={'Hook Custom'}>
+            <h1>Hook Custom</h1>
+            <HooKCustom></HooKCustom>
+        </Layout>
+
     </>
 }
