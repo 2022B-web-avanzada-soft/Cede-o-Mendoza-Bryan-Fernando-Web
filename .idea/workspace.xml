@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9706e902-c8dc-47c7-a8e5-945a4d08cc38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/react-nextjs/components/f_ejemplo_criptomonedas/CryptoFormulario.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/f_ejemplo_criptomonedas.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-nextjs/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/components/hooks/useSelectMoneda.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/hooks/useSelectMoneda.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/a_hola_mundo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/a_hola_mundo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/c_use_state.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/c_use_state.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/d_hook_custom.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/d_hook_custom.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/e_use_context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/e_use_context.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/components/f_ejemplo_criptomonedas/CryptoFormulario.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/components/f_ejemplo_criptomonedas/CryptoFormulario.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/f_ejemplo_criptomonedas.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/f_ejemplo_criptomonedas.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +116,7 @@
       <workItem from="1674541598732" duration="16079000" />
       <workItem from="1675435746050" duration="1689000" />
       <workItem from="1677682232837" duration="28582000" />
-      <workItem from="1678021848776" duration="2973000" />
+      <workItem from="1678021848776" duration="6092000" />
     </task>
     <servers />
   </component>

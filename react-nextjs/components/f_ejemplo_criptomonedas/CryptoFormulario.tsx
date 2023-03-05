@@ -2,6 +2,7 @@ import {useEffect, useState} from "react";
 import useSelectMoneda from "../hooks/useSelectMoneda";
 import {MonedasInterface} from "../../interfaces/moneda";
 import {MONEDAS} from "../d_hook_custom/monedas";
+import {ConsultaMoneda} from "../../pages/f_ejemplo_criptomonedas";
 
 export default function (params) {
     const {setMonedas} = params;
@@ -41,6 +42,11 @@ export default function (params) {
     )
     const manejarSubmitFormulario = (e)=>{
         e.preventDefault();
+        const monedasConsulta: ConsultaMoneda = {   //Nos traemos la interface y seteamos los valores con los valores de la moneda y del crypto
+            valorCriptoMoneda: valorCriptoMoneda as string,
+            valorMoneda: valorMoneda as string
+        }
+        setMonedas(monedasConsulta); //Enviamos el vamos de la moneda y del cripto de regreso a la pagina
     }
     return(
 
