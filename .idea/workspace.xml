@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9706e902-c8dc-47c7-a8e5-945a4d08cc38" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/i_todos/[idTodo].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/i_todos/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-nextjs/servicios/http/todos.http.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/h_react_hook_form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/h_react_hook_form.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +116,7 @@
       <workItem from="1674541598732" duration="16079000" />
       <workItem from="1675435746050" duration="1689000" />
       <workItem from="1677682232837" duration="28582000" />
-      <workItem from="1678021848776" duration="12022000" />
+      <workItem from="1678021848776" duration="17403000" />
     </task>
     <servers />
   </component>
