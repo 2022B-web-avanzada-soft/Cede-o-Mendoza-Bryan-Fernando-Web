@@ -1,7 +1,7 @@
 import {useState} from "react";
-import {useForm} from "react-hook-form";
+import {Controller, useForm} from "react-hook-form";
 import Layout from "../components/Layout";
-import {Button} from "@mui/material";
+import {Button, FormControl, InputLabel, MenuItem, Select} from "@mui/material";
 
 type FormularioEjemplo = { //Creamos los valores del formulario
     nombre: string;
@@ -37,13 +37,13 @@ export default function () {
                                placeholder="EJ: Adrian"
                                id="nombre"
                                {...register('nombre', {
-                                   required: {
+                                   required: { //que sea requerido
                                        value: true,
                                        message: 'nombre requerido'
-                                   },
+                                   }, //validaciones
                                    maxLength: {value: 20, message: 'Longitud maxima 20'},
                                    minLength: {value: 5, message: 'Longitud minima 5'},
-                                   validate: {
+                                   validate: {   //validadciones personales
                                        soloNumeros:(valorActual) => {
                                            // Transformar a numero un string:
                                            // Number("1")
@@ -71,8 +71,44 @@ export default function () {
                         }
                     </div>
 
+                    //Form de una libreria de React
+                    <div className="mb-3">
+                        <FormControl fullWidth>   //Libreria MUi
+                            <InputLabel id="estadoCivilLabelId">Estado civil</InputLabel>
+                            <Controller //Libreria Reack Hook from
+                                control={control}
+                                rules={{ required: {value: true, message: 'Estado C. requerido'}}}
+                                name="estadoCivil"
+                                render={ //recibe una funcion
+                                    ({field: {onChange, value, onBlur,}}) => {
+                                        // onBlur,Onchange ,etx son las partes mas importantes y selas devuelve
+                                        return <Select
+                                            labelId="estadoCivilLabelId"
+                                            id="estadoCivilId"
+                                            label="Estado Civil"
+                                            onBlur={onBlur}
+                                            value={value}
+                                            onChange={onChange}
+                                        >
+                                            <MenuItem value={'casado'}>Casado</MenuItem>
+                                            <MenuItem value={'soltero'}>Soltero</MenuItem>
+                                        </Select>
+                                    }
+                                }
+                            />
+                            {/*Termina controller*/}
+                            {errors.estadoCivil &&
+                                <div className="alert alert-warning" role="alert">
+                                    Tiene errores {errors.estadoCivil.message}
+                                </div>
+                            }
+                        </FormControl>
+                    </div>
+
                     <Button type="submit"
+                            disabled={!isValid}
                             variant='outlined'>Submit</Button>
+
                 </form>
 
             </Layout>
