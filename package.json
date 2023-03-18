@@ -3,6 +3,7 @@
     "-": "^0.0.1",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@nestjs/cli": "^9.3.0",
     "g": "^2.0.1",
     "inquirer": "^8.0.0",
     "react-hook-form": "^7.43.4",
