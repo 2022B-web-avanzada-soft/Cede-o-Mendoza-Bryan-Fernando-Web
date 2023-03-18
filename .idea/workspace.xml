@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9706e902-c8dc-47c7-a8e5-945a4d08cc38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/nest-cli.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/app.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/app.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/app.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/eventos/eventos.gateway.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/eventos/eventos.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/test/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/test/jest-e2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/tsconfig.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/components/i_websockets/MensajesChat.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-nextjs/pages/i_websockets.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-nextjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-nextjs/pages/i_websockets.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-nextjs/pages/i_websockets.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +119,7 @@
       <workItem from="1678373289743" duration="563000" />
       <workItem from="1679090760165" duration="783000" />
       <workItem from="1679091571900" duration="1703000" />
-      <workItem from="1679149386845" duration="9529000" />
+      <workItem from="1679149386845" duration="17272000" />
     </task>
     <servers />
   </component>
