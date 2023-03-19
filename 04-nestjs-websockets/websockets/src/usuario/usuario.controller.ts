@@ -1,12 +1,21 @@
-import {BadRequestException, Body, Controller, Delete, Get, HttpCode, Param, Post, Put, Query} from "@nestjs/common";
+import {
+    BadRequestException,
+    Body,
+    Controller,
+    Delete,
+    Get,
+    HttpCode,
+    Param, Post, Put, Query,
+    UnauthorizedException
+} from "@nestjs/common";
 import {UsuarioService} from "./usuario.service";
-import {UsuarioUpdateDto} from "../dto/usuario-update.dto";
+
 import {validate} from "class-validator";
-import {UsuarioCreateDto} from "../dto/usuario-create.dto";
 import {FindManyOptions, FindOptionsWhere, Like} from "typeorm";
 import {UsuarioEntity} from "./usuario.entity";
-
-@Controller('usuario') //aqui estaria el url al que queremos acceder
+import {UsuarioUpdateDto} from "./dto/usuario-update.dto";
+import {UsuarioCreateDto} from "./dto/usuario-create.dto";
+@Controller('usuario')
 // http://localhost:3000/usuario/
 // @Controller('usuario/asd/qwe')
 // http://localhost:3000/usuario/asd/qwe
@@ -59,7 +68,6 @@ export class UsuarioController{
         );
     }
 
-
     @Post("/") // POST /usuario
     @HttpCode(201)
     async create(
@@ -87,7 +95,7 @@ export class UsuarioController{
         @Query() queryParams
     ) {
         const consulta: FindManyOptions<UsuarioEntity> = {
-            relations: ['notas'],
+           relations: ['notas'],
             // select: ['id'], // Select
             // relations: { //  Relaciones
             //     notas: true

@@ -2,8 +2,8 @@ import {Injectable} from "@nestjs/common";
 import {InjectDataSource} from "@nestjs/typeorm";
 import {DataSource, FindManyOptions} from "typeorm";
 import {UsuarioEntity} from "./usuario.entity";
-import {UsuarioCreateDto} from "../dto/usuario-create.dto";
-import {UsuarioUpdateDto} from "../dto/usuario-update.dto";
+import {UsuarioCreateDto} from "./dto/usuario-create.dto";
+import {UsuarioUpdateDto} from "./dto/usuario-update.dto";
 
 @Injectable()
 export class UsuarioService{

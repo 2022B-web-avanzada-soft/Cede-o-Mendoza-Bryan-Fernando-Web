@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9706e902-c8dc-47c7-a8e5-945a4d08cc38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/dto/usuario-create.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/dto/usuario-update.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/nota/nota.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/nota/nota.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/nota/nota.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/nota/nota.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-nestjs-websockets/websockets/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-nestjs-websockets/websockets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-nestjs-websockets/websockets/bdd/bdd.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/bdd/bdd.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/dto/usuario-create.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/usuario/dto/usuario-create.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/dto/usuario-update.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/usuario/dto/usuario-update.dto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/usuario/usuario.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/usuario/usuario.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/usuario/usuario.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/usuario/usuario.entity.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/usuario/usuario.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/usuario/usuario.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,11 +73,11 @@
       <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\react-nextjs\components\e_use_context" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\04-nestjs-websockets\websockets\src\usuario" />
       <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\04-nestjs-websockets\websockets" />
       <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\DeberWebsockets\react-nextjs\components\i" />
       <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\react-nextjs\pages\i_todos\[idTodo]\hijos_todos" />
       <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\react-nextjs\components" />
-      <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\01-javascript\proyecto-node" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.ExamenIB.js">
@@ -126,7 +130,7 @@
       <workItem from="1678373289743" duration="563000" />
       <workItem from="1679090760165" duration="783000" />
       <workItem from="1679091571900" duration="1703000" />
-      <workItem from="1679149386845" duration="48014000" />
+      <workItem from="1679149386845" duration="51865000" />
     </task>
     <servers />
   </component>
