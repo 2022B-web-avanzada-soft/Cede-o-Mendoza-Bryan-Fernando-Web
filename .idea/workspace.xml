@@ -5,59 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9706e902-c8dc-47c7-a8e5-945a4d08cc38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/components/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/components/List.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/components/ListDetail.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/components/ListItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/components/Ubicacion.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/components/i/Imagen1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/components/maps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/interfaces/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/pages/_app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/pages/about.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/pages/api/users/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/pages/buscarUbicacion.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/pages/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/pages/users/[id].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/pages/users/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/styles/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/react-nextjs/utils/sample-data.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/nest-cli.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/src/app.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/src/app.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/src/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/src/app.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/src/eventos/eventos.gateway.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/src/eventos/eventos.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/test/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/test/jest-e2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/tsconfig.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeberWebsockets/websockets/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/bdd/dbb.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/usuario/usuario.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/usuario/usuario.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/usuario/usuario.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/usuario/usuario.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/typescript/lib/tsc.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/tsc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/typescript/lib/tsserver.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/tsserver.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/typescript/lib/tsserverlibrary.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/tsserverlibrary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/typescript/lib/typescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/typescript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/typescript/lib/typescriptServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/typescriptServices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/typescript/lib/typingsInstaller.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/typingsInstaller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/typescript/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/typescript/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-nestjs-websockets/websockets/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-nestjs-websockets/websockets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/04-nestjs-websockets/websockets/src/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +71,7 @@
       <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\react-nextjs\components\e_use_context" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\04-nestjs-websockets\websockets" />
       <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\DeberWebsockets\react-nextjs\components\i" />
       <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\react-nextjs\pages\i_todos\[idTodo]\hijos_todos" />
       <recent name="C:\Users\Fernando\Documents\WebAvanzadas\Cedeno-Mendoza-Bryan-Fernando-Web\react-nextjs\components" />
@@ -171,7 +128,7 @@
       <workItem from="1678373289743" duration="563000" />
       <workItem from="1679090760165" duration="783000" />
       <workItem from="1679091571900" duration="1703000" />
-      <workItem from="1679149386845" duration="37559000" />
+      <workItem from="1679149386845" duration="44034000" />
     </task>
     <servers />
   </component>
