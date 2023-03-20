@@ -17,9 +17,7 @@ import {MarcaCreateDto} from "./dto/marca-create.dto";
 import {MarcaEntity} from "./marca.entity";
 
 @Controller('marca')
-// http://localhost:3000/usuario/
-// @Controller('usuario/asd/qwe')
-// http://localhost:3000/usuario/asd/qwe
+
 export class MarcaController{
     constructor(
         private readonly marcaService: MarcaService
@@ -93,7 +91,7 @@ export class MarcaController{
         return this.marcaService.create(nuevoRegistro);
     }
 
-    @Get("/") // GET /usuario/
+    /*@Get("/") // GET /usuario/
     @HttpCode(200)
     find(
         @Query() queryParams
@@ -125,6 +123,11 @@ export class MarcaController{
         }
         return this.marcaService.find(consulta);
 
+    }*/
+    @Get("/")
+    @HttpCode(200)
+    async findAll() {
+        return this.marcaService.find({relations:['celulares']});
     }
 
 }

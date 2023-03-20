@@ -23,6 +23,18 @@ export class CelularService{
             },
         })
     }
+
+    create(datosCrear: any):Promise<any> {
+        return this.celularRepository.save(datosCrear);
+    }
+    update(datosActualizar: CelularUpdateDto, id: number):Promise<CelularEntity> {
+        return this.celularRepository.save(
+            {...datosActualizar, id}
+        );
+    }
+
+
+    /*
     create(datosCrear: any) {
         return this.celularRepository.save(datosCrear);
     }
@@ -30,7 +42,8 @@ export class CelularService{
         return this.celularRepository.save(
             {...datosActualizar, id}
         );
-    }
+    }*/
+
     delete(id: number) {
         return this.celularRepository.delete(id);
     }

@@ -54,7 +54,7 @@ export class CelularController{
         nuevoRegistro.modelo = bodyParams.modelo;
         nuevoRegistro.precio = bodyParams.precio;
         nuevoRegistro.procesador = bodyParams.procesador;
-        nuevoRegistro.marca = bodyParams.marca;
+
 
         const arregloErrores = await validate(
             nuevoRegistro
@@ -95,7 +95,9 @@ export class CelularController{
         return this.celularService.create(nuevoRegistro);
     }
 
-    @Get("/") // GET /usuario/
+
+
+    /*@Get("/") // GET /usuario/
     @HttpCode(200)
     find(
         @Query() queryParams
@@ -127,6 +129,11 @@ export class CelularController{
         }
         return this.celularService.find(consulta);
 
+    }*/
+    @Get("/")
+    @HttpCode(200)
+    async findAll() {
+        return this.celularService.find({relations:['marca']});
     }
 
 }

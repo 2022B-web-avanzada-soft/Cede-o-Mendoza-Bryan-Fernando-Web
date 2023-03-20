@@ -17,7 +17,7 @@ export class CelularUpdateDto {
     @IsString()
     procesador: string;
 
-    @IsOptional()
+    /*@IsOptional()
     @IsNumber()
-    marca: number;
+    marca: number;*/
 }

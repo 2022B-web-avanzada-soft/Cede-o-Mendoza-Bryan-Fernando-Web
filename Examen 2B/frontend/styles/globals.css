@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body #__next{
+    height: 100%;
+}
+
+#container {
+    min-height: 100%;
+    /* esto es para que funcione en navegadores antiguos */
+    position: relative;
+}
+
+#content {
+    padding-bottom: 50px; /* altura del footer */
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px; /* ajustar según la altura del footer */
+}
+
